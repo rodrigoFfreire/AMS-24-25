@@ -295,7 +295,7 @@
     </bpmn:intermediateThrowEvent>
     <bpmn:sequenceFlow id="Flow_02skqsa" sourceRef="Event_0brz6hz" targetRef="Event_08vmzc2" />
     <bpmn:sequenceFlow id="Flow_0jg8gzx" sourceRef="Event_08vmzc2" targetRef="Activity_0g81paf" />
-    <bpmn:intermediateThrowEvent id="Event_1e5nl0u" name="Enviar contrato finalizado">
+    <bpmn:intermediateThrowEvent id="Event_1e5nl0u" name="Enviar contrato finalizado para cliente">
       <bpmn:incoming>Flow_0nueyba</bpmn:incoming>
       <bpmn:outgoing>Flow_09v2dt1</bpmn:outgoing>
       <bpmn:messageEventDefinition id="MessageEventDefinition_17cs8cq" />
@@ -355,7 +355,7 @@
       <bpmndi:BPMNShape id="Gateway_10e7uel_di" bpmnElement="Gateway_prop_analysis_outcome" isMarkerVisible="true">
         <dc:Bounds x="715" y="395" width="50" height="50" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_1jz5u2n_di" bpmnElement="Event_prop_request" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
+      <bpmndi:BPMNShape id="Event_1jz5u2n_di" bpmnElement="Event_prop_request" bioc:stroke="#5b176d" bioc:fill="#e1bee7" color:background-color="#e1bee7" color:border-color="#5b176d">
         <dc:Bounds x="262" y="402" width="36" height="36" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="255" y="448" width="50" height="27" />
@@ -474,7 +474,7 @@
           <dc:Bounds x="976" y="1022" width="48" height="14" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="DataObjectReference_0jipz1q_di" bpmnElement="DataObjectReference_0jipz1q" bioc:stroke="#5b176d" bioc:fill="#e1bee7" color:background-color="#e1bee7" color:border-color="#5b176d">
+      <bpmndi:BPMNShape id="DataObjectReference_0jipz1q_di" bpmnElement="DataObjectReference_0jipz1q" bioc:stroke="#6b3c00" bioc:fill="#ffe0b2" color:background-color="#ffe0b2" color:border-color="#6b3c00">
         <dc:Bounds x="1192" y="1065" width="36" height="50" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="1246" y="1076" width="47" height="27" />
@@ -504,7 +504,7 @@
       <bpmndi:BPMNShape id="Gateway_1qlwnqu_di" bpmnElement="Gateway_1qlwnqu" isMarkerVisible="true">
         <dc:Bounds x="395" y="1065" width="50" height="50" />
       </bpmndi:BPMNShape>
-      <bpmndi:BPMNShape id="Event_17gh8ws_di" bpmnElement="Event_09t19hj">
+      <bpmndi:BPMNShape id="Event_17gh8ws_di" bpmnElement="Event_09t19hj" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
         <dc:Bounds x="642" y="1072" width="36" height="36" />
         <bpmndi:BPMNLabel>
           <dc:Bounds x="635" y="1115" width="50" height="27" />
@@ -546,7 +546,7 @@
       <bpmndi:BPMNShape id="Event_16goclv_di" bpmnElement="Event_1e5nl0u" bioc:stroke="#205022" bioc:fill="#c8e6c9" color:background-color="#c8e6c9" color:border-color="#205022">
         <dc:Bounds x="982" y="1072" width="36" height="36" />
         <bpmndi:BPMNLabel>
-          <dc:Bounds x="963" y="1115" width="74" height="27" />
+          <dc:Bounds x="963" y="1115" width="74" height="40" />
         </bpmndi:BPMNLabel>
       </bpmndi:BPMNShape>
       <bpmndi:BPMNShape id="Gateway_0x272zz_di" bpmnElement="Gateway_0x272zz" isMarkerVisible="true">
