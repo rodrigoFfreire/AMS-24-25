@@ -49,7 +49,7 @@
   </folder>
   <folder name="Application" id="id-02c9888607314061a6056e0109fc1ce8" type="application">
     <element xsi:type="archimate:ApplicationComponent" name="BGM" id="id-87b1f862012c438b88781ead1964391a"/>
-    <element xsi:type="archimate:ApplicationComponent" name="MGMAPP" id="id-7ee605a28f2240c88b669ab95cd804e5"/>
+    <element xsi:type="archimate:ApplicationComponent" name="MNGAPP" id="id-7ee605a28f2240c88b669ab95cd804e5"/>
     <element xsi:type="archimate:ApplicationComponent" name="BGBCRM" id="id-a3827843b6cc40d2857734dc440fd6ac"/>
     <element xsi:type="archimate:ApplicationFunction" name="Receção de comandos/Envio de dados" id="id-9e093088d03e4c3ba16761f3dd31e826"/>
     <element xsi:type="archimate:ApplicationComponent" name="BSoft" id="id-8871c41e2e2b4f1a8369e7e322b6cd4a"/>
