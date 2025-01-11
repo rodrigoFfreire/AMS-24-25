@@ -466,7 +466,7 @@
         <bounds x="354" y="744" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-33dcf27111d446e591d4b32295a19163" source="id-a0fdb1de8c7349abad85c7bfde76a5af" target="id-5fcab861a3c44d2fb8f57b392020f9a8" archimateRelationship="id-9b0a556876b6488b95b3a8db07492a3f"/>
       </child>
-      <child xsi:type="archimate:DiagramObject" id="id-899c9469f0a94e15942a4972e41b086f" targetConnections="id-2a4b2b33f3c2405ab23b8d6993b5ac76" archimateElement="id-a3827843b6cc40d2857734dc440fd6ac" type="1">
+      <child xsi:type="archimate:DiagramObject" id="id-899c9469f0a94e15942a4972e41b086f" archimateElement="id-a3827843b6cc40d2857734dc440fd6ac" type="1">
         <bounds x="354" y="960" width="120" height="55"/>
         <sourceConnection xsi:type="archimate:Connection" id="id-05b391ae3ed54084a0028972ff05bb04" source="id-899c9469f0a94e15942a4972e41b086f" target="id-fca1f28963ae4e61ad9e1ce6f8ab4f5b" archimateRelationship="id-b3100d83695541a3b2a4a336acd2280e">
           <bendpoint startX="42" startY="-39" endX="-533" endY="75"/>
@@ -495,10 +495,6 @@
           <bendpoint startX="-1" startY="-87" endX="139" endY="45"/>
           <bendpoint startX="-133" startY="-87" endX="7" endY="45"/>
         </sourceConnection>
-      </child>
-      <child xsi:type="archimate:DiagramObject" id="id-740287f86e0c457289d56b049886f838" archimateElement="id-b5b6ae741e984f6ba78a362aea4fbab7" type="1">
-        <bounds x="354" y="1140" width="120" height="169"/>
-        <sourceConnection xsi:type="archimate:Connection" id="id-2a4b2b33f3c2405ab23b8d6993b5ac76" source="id-740287f86e0c457289d56b049886f838" target="id-899c9469f0a94e15942a4972e41b086f" archimateRelationship="id-821e3ab70e2c42adbc419c6494b53f69"/>
       </child>
       <child xsi:type="archimate:DiagramObject" id="id-d2732e1d924a40d086ffecf58d9c2eff" archimateElement="id-ef4a3f2f655f4fa496a60fcd6e949a27" type="1">
         <bounds x="1048" y="1140" width="120" height="170"/>
